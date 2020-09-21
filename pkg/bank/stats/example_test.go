@@ -1,7 +1,7 @@
 package stats
 
 import (
-	"github.com/s-zer0/avg/pkg/bank/types"
+	"github.com/s-zer0/bank/pkg/bank/types"
 	"fmt")
 
 func ExampleAvg(){
@@ -10,12 +10,14 @@ func ExampleAvg(){
 	  ID:2,
       Amount:53_00,
       Category: "Cat",
-    },
+	},
+	
     {
       ID:1,
       Amount:51_00,
       Category: "Cat",
-    },
+	},
+	
     {
       ID:3,
       Amount:52_00,
